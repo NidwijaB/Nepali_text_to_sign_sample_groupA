@@ -1,0 +1,12 @@
+Python version- 3.13 download
+Main models/packages used are mentioned in install/requirements.txt. You can either install that directly in your system using pip or use a venv (optional)
+Main code present in main_project/main_code/updated_code.py
+utils/clean_and_tokenize le chai word/sentence clean up ra tokenize garna help garcha
+sign video ko clips are in the signvidoes folder. aile lai sample videos try garna full length videos cha. Ideally we would want words or alphabet ko clips there for our dataset
+To run:
+    go to updated code.py
+    tyesma check clips ko folder path matches with the one in your system
+    then you can just run the file, enter the prompt.
+    right now only the prompt using 'hello' or 'day' or any combo of the two can be used because that's the only clips I have
+    It should show you using moviepy, the video with the clips or jsut the one clip (direct eta play bhayeko dekhena bhaney it could be playing background ma, pycharm or jun ide ho minimize garera you can check)
+
