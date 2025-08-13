@@ -6,10 +6,10 @@ from utils.clean_and_tokenize import clean_and_tokenize
 # def clean_text(text):
 #     return text.lower().strip().replace(".", "").replace(",", "").split()
 
-def load_clips(words, folder=r"C:\Users\user\Documents\PYTHONPROJECTS\Nepali_text_to_sign_sample_groupA\signvideos"):
+def load_clips(words, folder=r"D:\data"):
     clips = []
     for word in words:
-        path = os.path.join(folder, f"{word}.mp4")
+        path = os.path.join(folder, f"{word}.m4v")
         if os.path.exists(path):
             clips.append(VideoFileClip(path).without_audio())
         else:
